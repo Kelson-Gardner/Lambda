@@ -2,7 +2,7 @@ import AWS from 'aws-sdk';
 
 const sqs = new AWS.SQS();
 
-const QUEUE_URL = process.env.QUEUE_URL;
+const QUEUE_URL = https://sqs.us-east-1.amazonaws.com/576677714530/cs5250-requests;
 
 const validateWidgetRequest = (request) => {
   const requiredFields = ["action", "widgetType", "quantity"];
